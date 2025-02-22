@@ -1,0 +1,7 @@
+string16 0x519734AD "E:\Various stuff\SporeModder v1.3.3\Projects\2012_DavoUnlimitedComplexityAllEditors"
+string16s 0x66D09E2F
+	"sporemaster\names.txt"
+end
+keys 0xCB2ACA61
+	sporemaster!names.txt
+end

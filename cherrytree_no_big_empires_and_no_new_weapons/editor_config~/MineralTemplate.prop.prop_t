@@ -1,0 +1,3 @@
+key parent editor_config~!GlobalTemplate.prop
+string16 description "Mineral Template"
+int32 editorBoneComplexityLimit 1000000

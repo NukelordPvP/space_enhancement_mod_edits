@@ -1,0 +1,159 @@
+key parent editor_config~!GlobalTemplate.prop
+string16 description "Creature Editor Setup"
+float ThumbnailLowering 0.5
+bool editorAllowAsymmetry true
+float editorAnimationInterruptDistance 50
+string16 editorAssembledContentDirectory "Content/AssembledContent/Creatures"
+key editorBackgroundMusicPatch music_creature_editor
+uint32s editorBaseConfigUnlocks
+	hash(ce_category_weapons)
+	3
+	hash(ce_category_mouths)
+	4
+	hash(ce_category_graspers)
+	3
+	hash(ce_category_feet)
+	4
+	hash(ce_category_eyes_&_senses)
+	5
+	hash(ce_category_details)
+	5
+	hash(ce_category_arms_&_legs)
+	4
+end
+int32 editorBoneComplexityLimit 0x05f5e0ff
+float editorBoundSize 3
+texts editorBudgetTooltip
+	(tooltips!0x064d2882) "DNA Budget (PLACEHOLDER)"
+end
+key editorCameraThumbnail EditorCameraCreatureThumbnail.prop
+key editorCameraUI EditorCameraCreatureUI.prop
+int32 editorComplexityLimit 0x05f5e0ff
+float editorCreatureIdleActivationTime 500
+uint32 editorCurrencyChar 9867
+key editorCurrencyIcon editors~!edi_dna_icon.png
+float editorDaisRadius 1.25
+uint32 editorDaisType hash(rock)
+int32 editorDefaultBrainLevel 3
+int32 editorDefaultInitialBudget 99999
+texts editorDefaultModelName
+	(CE!0x04d93065) "Untitled Creature"
+end
+uint32s editorDefaultSkinPaintScripts
+	hash(skinpaint_base_blankMatte)
+	hash(skinpaint_coat_blank)
+	hash(skinpaint_detail_blank)
+end
+bool editorDisableCreatureAnimIK true
+keys editorEnabledManipulators
+	cSPEditorManipulationLimb
+	cSPEditorManipulationBoneRotation
+	cSPEditorManipulationPinning
+	cSPEditorManipulationSpine
+	cSPEditorManipulationSpineResize
+	cSPEditorManipulationStackingSimple
+	cSPEditorManipulationTranslateCreature
+	cSPEditorManipulationDeformHandle
+	cSPEditorManipulationRotationHandle
+	cSPEditorManipulationSpineScaling
+end
+float editorFeetBoundSize 2.5
+bool editorInitSpine true
+key editorLight CreatureEditor
+int32 editorMaxBakedBlocks 0x05f5e0ff
+int32 editorMaxBlockCount 0x05f5e0ff
+int32 editorMaxBudget 0x05f5e0ff
+float editorMaxGeomScore 100000000
+float editorMaxHeight 3
+float editorMinHeight 0
+float editorMinimumLeglessCreatureHeight 0.5
+uint32 editorModelTranslationOptions 39
+keys editorModelTypes
+	creature
+end
+texts editorName
+	(CE!0x04d94893) "Creature"
+end
+texts editorNamePrompt
+	(CE!0x0537185f) "Naming Prompt (PLACEHOLDER)"
+end
+key editorPaintModeLight creatureeditorpaintmode
+key editorPaintPalette palette_definition~!0x0000000D.prop
+key editorPaintSwatchModel creature_editorModel~!PaintBuddy.crt
+key editorPartsPalette palette_definition~!0x0000000C.prop
+int32 editorPlayModeBackgroundSet 0
+key editorPlayModeEntryEffectID editor_test_mode_entry_extra_large
+key editorPlayModeExitEffectID editor_part_mode_entry_extra_large
+key editorRandomNameType kCreature
+key editorSaveDirectory SaveAreaCreatures~!0xFFFFFFFF
+key editorSaveExtension 0xFFFFFFFF.crt
+bool editorShowVertebrae true
+float editorSkinResolutionHighQuality 0.032
+float editorSkinResolutionRealtime 0.042
+key editorSkyBoxEffect CR_direction_particles
+key editorSporepediaCanSwitchConfigID CRE_Shopper_CanSwitch
+key editorSporepediaConfigID cre_shopper
+keys editorStartupModel
+	creature_editorModel~!B_00.crt
+	creature_editorModel~!B_01.crt
+	creature_editorModel~!B_02.crt
+	creature_editorModel~!B_03.crt
+	creature_editorModel~!B_04.crt
+	creature_editorModel~!B_05.crt
+	creature_editorModel~!B_06.crt
+	creature_editorModel~!B_07.crt
+	creature_editorModel~!B_08.crt
+	creature_editorModel~!B_09.crt
+	creature_editorModel~!B_10.crt
+	creature_editorModel~!B_11.crt
+	creature_editorModel~!B_12.crt
+	creature_editorModel~!B_13.crt
+	creature_editorModel~!B_14.crt
+	creature_editorModel~!B_15.crt
+	creature_editorModel~!B_16.crt
+	creature_editorModel~!B_17.crt
+	creature_editorModel~!B_18.crt
+	creature_editorModel~!B_19.crt
+	creature_editorModel~!B_20.crt
+	creature_editorModel~!B_21.crt
+	creature_editorModel~!B_22.crt
+	creature_editorModel~!B_23.crt
+	creature_editorModel~!B_24.crt
+	creature_editorModel~!B_25.crt
+	creature_editorModel~!B_26.crt
+	creature_editorModel~!B_27.crt
+	creature_editorModel~!B_28.crt
+	creature_editorModel~!B_29.crt
+end
+key editorSwatchBackgroundModel ce_editor_background_sporepedia
+key editorSwatchBackgroundMusicPatch music_creature_editor_shopping
+key editorSwatchCameraUI EditorCameraCreatureUI
+key editorSwatchPedestalModel animations~
+key editorTestEnvironmentModel CE_test_mode_collision_terrain
+bool editorTranslateModelOnSave true
+key editorTutorialPaintMode CRESporeGuidePaint
+key editorTutorialPartMode CRESporeGuidePart
+key editorTutorialPlayMode CRESporeGuidePlay
+bool editorUseAnimWorld true
+bool editorUseBoundsForDelete false
+bool editorUseShadows true
+bool editorUseSkin true
+bool editorUseSpine true
+bool editorUseSymmetry true
+key editorVertebraModel creature_rigblock~!ce_vertebra.prop
+uint32 editorViewableComplexityFlags 7
+float tuningSpineHandleAlpha 1
+colorRGB tuningSpineHandleColor (0.933, 0.321, 0.258)
+float tuningSpineHandleDistance 0.15
+float tuningSpineHandleOverdrawAlpha 1
+float tuningSpineHandleSize 1.3
+float tuningVertebraFadeTime 0.5
+colorRGBA tuningVertebraHighlightColor (0.75, 0.68, 0.65, 1)
+colorRGBA tuningVertebraTorsoRolloverColor (0.75, 0.68, 0.65, 0.35)
+colorRGBA tuningVertebraTorsoSelectedColor (0.75, 0.68, 0.65, 0.8)
+colorRGBA tuningVertebraUnselectedColor (0.75, 0.68, 0.65, 0)
+key verbTrayCollection verbtrays!CRE_VerbTrayCollection
+key verbTrayCollectionSporepediaLargeCard verbtrays!SHP_CRE_VerbTrayCollection
+key verbTrayCollectionSporepediaLargeCardWithHealth verbtrays!SHP_CRE_VerbTrayCollection_WithHealth
+key verbTrayCollectionSporepediaSmallCard verbtrays!SHP_CR_SwatchVerbTrayCollectionLarge
+key verbTrayCollectionSporepediaSmallCardWithHealth verbtrays!SHP_CR_SwatchVerbTrayCollectionLarge_WithHealth

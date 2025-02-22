@@ -1,0 +1,15 @@
+key parent editor_config~!CellTemplate.prop
+string16 description "Cell Editor Setup"
+int32 editorBoneComplexityLimit 0x05f5e0ff
+int32 editorComplexityLimit 0x05f5e0ff
+int32 editorDefaultInitialBudget 99999
+int32 editorMaxBakedBlocks 0x05f5e0ff
+int32 editorMaxBlockCount 0x05f5e0ff
+int32 editorMaxBudget 0x05f5e0ff
+float editorMaxGeomScore 100000000
+key editorPartsPalette palette_definition~!0x00000002.prop
+key editorPedestalModel cl_editor_base_level0
+keys editorStartupModel
+	cell_editorModel~!NeutralCell.cll
+end
+bool editorSubtractPartsCostOnLoad true

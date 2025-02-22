@@ -1,0 +1,36 @@
+key parent editor_config~!TribalAccessoriesEditorSetup.prop
+string16 description "Civ Accessories Editor Setup"
+string16 editorAssembledContentDirectory "Content/AssembledContent/CreaturesAccessorized/Civic/"
+key editorBackgroundModel civ_acc_background
+key editorBackgroundMusicPatch music_civ_accessories
+int32 editorBoneComplexityLimit 0x05f5e0ff
+key editorBuyItemEffectID EDT_currency_civAccessory_buyItem
+int32 editorComplexityLimit 0x05f5e0ff
+float editorDaisRadius 4
+uint32 editorDaisType hash(rock)
+int32 editorDefaultBrainLevel 6
+int32 editorDefaultInitialBudget 99999
+key editorEscrowEffectID EDT_currency_civAccessory_escrow
+int32 editorMaxBakedBlocks 0x05f5e0ff
+int32 editorMaxBlockCount 0x05f5e0ff
+int32 editorMaxBudget 0x05f5e0ff
+float editorMaxGeomScore 100000000
+keys editorModelTypes
+	civcreature
+end
+key editorPartsPalette palette_definition~!0x000000C9.prop
+key editorPedestalModel civ_acc_dais
+int32 editorPlayModeBackgroundSet 2
+key editorPlayModeEntryEffectID civ_accessory_editor_playmode_pedastal
+key editorPlayModeExitEffectID animations~
+key editorSellItemEffectID EDT_currency_civAccessory_sellItem
+bool editorShowAbilityIcons false
+key editorSporepediaCanSwitchConfigID TAE_CreatureCivShopper_CanSwitch
+key editorSporepediaConfigID tae_creaturecivshopper
+key editorSwatchBackgroundModel civ_acc_background
+key editorSwatchBackgroundMusicPatch music_civ_accessories_shopping
+key editorSwatchPedestalModel civ_acc_dais
+key editorTestEnvironmentModel civ_acc_background_walk
+key verbTrayCollection verbtrays!CAE_VerbTrayCollection
+key verbTrayCollectionSporepediaLargeCard verbtrays!CAE_VerbTrayCollection
+key verbTrayCollectionSporepediaSmallCard animations~

@@ -1,0 +1,84 @@
+key parent space_npc_relationship_effects~!0x4E5855B9.prop
+string16 description "Scientist"
+floats RelationshipEventSpaceArchetypeMods
+	0
+	0
+	1
+	0
+	0
+	0
+	0
+	0
+end
+floats RelationshipEventSpaceMissionComplete
+	0
+	1
+	-10
+	99999
+	-0.005
+	0.5
+end
+floats RelationshipEventSpaceMissionFailed
+	0
+	-2
+	-99999
+	10
+	-0.5
+	0.5
+end
+int32s missionGeneratorWeight
+	100
+	70
+	40
+	40
+	100
+	70
+	50
+	100
+	40
+	100
+	100
+	50
+	50
+	40
+	40
+	70
+end
+int32s missionGeneratorWeightDuringAlliance
+	100
+	70
+	40
+	40
+	100
+	70
+	50
+	100
+	40
+	100
+	100
+	50
+	50
+	40
+	40
+	70
+end
+int32s missionGeneratorWeightDuringWar
+	100
+	70
+	40
+	40
+	100
+	70
+	50
+	100
+	40
+	100
+	100
+	50
+	50
+	40
+	40
+	70
+end
+float surrenderChance 0.5
+float surrenderChanceNearDeath 0.5

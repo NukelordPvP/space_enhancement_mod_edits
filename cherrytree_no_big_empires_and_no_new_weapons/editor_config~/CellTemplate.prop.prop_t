@@ -1,0 +1,107 @@
+key parent editor_config~!GlobalTemplate.prop
+string16 description "Cell Editor Setup"
+int32 ThumbnailEffect 1
+float ThumbnailLowering 0.3
+bool editorAllowPublish false
+float editorAnimationInterruptDistance 30
+string16 editorAssembledContentDirectory "Content/AssembledContent/Cells"
+key editorBackgroundMusicPatch music_cell_editor
+int32 editorBoneComplexityLimit 0x05f5e0ff
+float editorBoundSize 2
+texts editorBudgetTooltip
+	(tooltips!0x064d2882) "DNA Budget (PLACEHOLDER)"
+end
+key editorBuyItemEffectID EDT_currency_cell_buyItem
+key editorCameraPalette EditorCameraCellPalette.prop
+key editorCameraThumbnail EditorCameraCellThumbnail.prop
+bool editorCameraTurntableStyle true
+key editorCameraUI EditorCameraCellUI.prop
+int32 editorComplexityLimit 0x05f5e0ff
+uint32 editorCurrencyChar 9867
+key editorCurrencyIcon editors~!edi_dna_icon.png
+int32 editorDefaultBrainLevel 0
+int32 editorDefaultInitialBudget 99999
+texts editorDefaultModelName
+	(cl!0x04d93065) "Bob"
+end
+uint32s editorDefaultSkinPaintScripts
+	hash(skinpaint_cell_blankMatte)
+end
+bool editorDisableCreatureAnimIK true
+keys editorEnabledManipulators
+	cSPEditorManipulationCellPinning
+	cSPEditorManipulationCellTorso
+	cSPEditorManipulationDeformHandle
+	cSPEditorManipulationRotationHandle
+	cSPEditorManipulationSpineScaling
+end
+key editorEscrowEffectID EDT_currency_cell_escrow
+bool editorInitSpine true
+key editorLight CellEditor
+int32 editorMaxBakedBlocks 0x05f5e0ff
+int32 editorMaxBlockCount 0x05f5e0ff
+int32 editorMaxBudget 0x05f5e0ff
+float editorMaxGeomScore 100000000
+float editorMaxHeight 2
+float editorMinHeight -2
+uint32 editorModelTranslationOptions 6
+keys editorModelTypes
+	cell
+end
+texts editorName
+	(cl!0x04d94893) "Cell"
+end
+texts editorNamePrompt
+	(cl!0x053718ce) "Naming Prompt (PLACEHOLDER)"
+end
+key editorPaintModeLight CellEditorPaintMode
+key editorPaintPalette palette_definition~!0x00000006.prop
+key editorPaintSwatchModel cell_editorModel~!PaintSwatch.cll
+key editorPartsPalette palette_definition~!0x00000005.prop
+key editorPedestalModel cl_editor_base
+key editorRandomNameType kCreature
+key editorSaveDirectory 0x90368EA3!0xFFFFFFFF
+key editorSaveExtension 0xFFFFFFFF.cll
+key editorSellItemEffectID EDT_currency_cell_sellItem
+bool editorShowVertebrae true
+float editorSkinResolutionHighQuality 0.035
+float editorSkinResolutionRealtime 0.035
+int32 editorSpineScalingNeighborInfluence 2
+key editorSporepediaCanSwitchConfigID CLE_Shopper_CanSwitch
+key editorSporepediaConfigID CLE_Shopper
+keys editorStartupModel
+	cell_editorModel~!0x0625A974.cll
+	cell_editorModel~!0x0625A978.cll
+	cell_editorModel~!0x0625A976.cll
+	cell_editorModel~!0x0625A97A.cll
+	cell_editorModel~!0x0625A97C.cll
+	cell_editorModel~!0x0625A97E.cll
+	cell_editorModel~!0x0625A980.cll
+	cell_editorModel~!0x0625A984.cll
+	cell_editorModel~!0x0625A982.cll
+	cell_editorModel~!0x0625A986.cll
+	cell_editorModel~!0x0625A988.cll
+	cell_editorModel~!0x0625A98A.cll
+end
+key editorSwatchBackgroundMusicPatch music_cell_editor_shopping
+key editorSwatchCameraUI EditorCameraCellSporePedia.prop
+key editorSwatchPedestalModel cl_editor_base_level0
+bool editorTranslateModelOnSave true
+key editorTutorialPaintMode CLESporeGuidePaint
+key editorTutorialPartMode CLESporeGuidePart
+key editorTutorialPlayMode CLESporeGuidePart
+bool editorUseAnimWorld true
+bool editorUseShadows true
+bool editorUseSkin true
+bool editorUseSpine true
+bool editorUseSymmetry true
+key editorVertebraModel cell_rigblock~!cl_vertebra.prop
+uint32 editorViewableComplexityFlags 5
+float tuningVertebraFadeTime 0.5
+colorRGBA tuningVertebraHighlightColor (0.75, 0.68, 0.65, 1)
+colorRGBA tuningVertebraTorsoRolloverColor (0.75, 0.68, 0.65, 0.35)
+colorRGBA tuningVertebraTorsoSelectedColor (0.75, 0.68, 0.65, 0.8)
+colorRGBA tuningVertebraUnselectedColor (0.75, 0.68, 0.65, 0)
+key verbTrayCollection verbtrays!CLE_VerbTrayCollection
+key verbTrayCollectionSporepediaLargeCard verbtrays!CLE_VerbTrayCollection
+key verbTrayCollectionSporepediaSmallCard verbtrays!SHP_CLE_VerbTrayCollection

@@ -1,0 +1,61 @@
+key parent editor_config~!CreatureEditorSetup.prop
+string16 description "Tribal Accessories Editor Setup"
+string16 editorAssembledContentDirectory "Content/AssembledContent/CreaturesAccessorized/Tribal"
+key editorBackgroundModel tri_acc_background
+key editorBackgroundMusicPatch music_tribe_editor
+int32 editorBoneComplexityLimit 0x05f5e0ff
+texts editorBudgetTooltip
+	(tooltips!0x064d2883) "Accessory Budget (PLACEHOLDER)"
+end
+key editorBuyItemEffectID EDT_currency_tribeAccessory_buyItem
+int32 editorComplexityLimit 0x05f5e0ff
+uint32 editorCurrencyChar 9872
+key editorCurrencyIcon editors~!edi_food_icon.png
+float editorDaisRadius 1.5
+uint32 editorDaisType hash(wood)
+int32 editorDefaultBrainLevel 5
+int32 editorDefaultInitialBudget 99999
+keys editorEnabledManipulators
+	cSPEditorManipulationPinning
+	cSPEditorManipulationDeformHandle
+	cSPEditorManipulationRotationHandle
+	cSPEditorManipulationCreatureTest
+end
+key editorEscrowEffectID EDT_currency_tribeAccessory_escrow
+int32 editorMaxBakedBlocks 0x05f5e0ff
+int32 editorMaxBlockCount 0x05f5e0ff
+int32 editorMaxBudget 0x05f5e0ff
+float editorMaxGeomScore 100000000
+keys editorModelTypes
+	tribecreature
+end
+texts editorName
+	(0xFFFFFFFF!0xffffffff) "Accessories"
+end
+bool editorOnlyEditFromPalette true
+key editorPartsPalette palette_definition~!0x000000CA.prop
+key editorPedestalModel tri_acc_pedastal
+int32 editorPlayModeBackgroundSet 1
+key editorPlayModeEntryEffectID tribal_accessory_editor_playmode_pedastal
+key editorPlayModeExitEffectID animations~
+key editorSellItemEffectID EDT_currency_tribeAccessory_sellItem
+bool editorShowVertebrae false
+key editorSporepediaCanSwitchConfigID TAE_CreatureTribeShopper_CanSwitch
+key editorSporepediaConfigID tae_creaturetribeshopper
+keys editorStartupModel
+	creature_editorModel~!Shortfuss.crt
+end
+key editorSwatchBackgroundModel tri_acc_background
+key editorSwatchBackgroundMusicPatch music_tribe_editor_shopping
+key editorSwatchPedestalModel tri_acc_pedastal
+key editorTestEnvironmentModel tri_acc_pedastal
+key editorTutorialPaintMode OutfitterSporeGuidePaint
+key editorTutorialPartMode OutfitterSporeGuide
+key editorTutorialPlayMode OutfitterSporeGuidePlay
+bool editorUseSymmetry true
+uint32 editorViewableComplexityFlags 1
+key verbTrayCollection verbtrays!TAE_VerbTrayCollection
+key verbTrayCollectionSporepediaLargeCard verbtrays!TAE_VerbTrayCollection
+key verbTrayCollectionSporepediaLargeCardWithHealth verbtrays!TAE_VerbTrayCollection_WithHealth
+key verbTrayCollectionSporepediaSmallCard verbtrays!SHP_TAE_SwatchVerbTrayCollectionLarge
+key verbTrayCollectionSporepediaSmallCardWithHealth verbtrays!SHP_TAE_SwatchVerbTrayCollectionLarge_WithHealth

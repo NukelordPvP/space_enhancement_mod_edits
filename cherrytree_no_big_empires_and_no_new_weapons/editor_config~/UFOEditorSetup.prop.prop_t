@@ -1,0 +1,49 @@
+key parent editor_config~!VehicleTemplate.prop
+string16 description "UFO Editor Setup"
+string16 editorAssembledContentDirectory "Content/AssembledContent/UFOs"
+key editorBackgroundModel ve_editor_ufobase_background
+key editorBackgroundMusicPatch music_ufo_editor
+int32 editorBoneComplexityLimit 0x05f5e0ff
+int32 editorComplexityLimit 0x05f5e0ff
+int32 editorDefaultInitialBudget 99999
+texts editorDefaultModelName
+	(ue!0x04d93065) "Untitled UFO"
+end
+int32 editorMaxBakedBlocks 0x05f5e0ff
+int32 editorMaxBlockCount 0x05f5e0ff
+int32 editorMaxBudget 0x05f5e0ff
+float editorMaxGeomScore 100000000
+float editorMaxHeight 10
+float editorMinHeight -0.7
+float editorMinPlayableDepth 0.1
+float editorMinPlayableHeight 0.1
+float editorMinPlayableWidth 0.1
+uint32 editorModelTranslationOptions 46
+keys editorModelTypes
+	VehicleUFO
+end
+bool editorMoveModelToCenterOfMass true
+texts editorName
+	(ue!0x04d94893) "UFO"
+end
+texts editorNamePrompt
+	(ue!0x05371ad8) "Naming Prompt (PLACEHOLDER)"
+end
+key editorPaintPalette palette_definition~!0x00000047.prop
+key editorPaintSwatchModel ufo_editorModel~!UFOPaintSwatch.ufo
+key editorPartsPalette palette_definition~!0x00000046.prop
+key editorSaveDirectory 0x90368EA2!0xFFFFFFFF
+key editorSaveExtension 0xFFFFFFFF.ufo
+bool editorShowAbilityIcons false
+key editorSkyBoxEffect 0xA4F78597
+key editorSporepediaCanSwitchConfigID UFO_Shopper_CanSwitch
+key editorSporepediaConfigID ufo_shopper
+key editorSwatchBackgroundModel ve_editor_ufobase_background
+key editorSwatchBackgroundMusicPatch music_ufo_editor_shopping
+key editorTutorialPaintMode UFESporeGuidePaint
+key editorTutorialPartMode UFESporeGuidePart
+key editorTutorialPlayMode ufeSporeguide
+bool editorUseShadows true
+key verbTrayCollection verbtrays!EDI_VerbTrayCollection
+key verbTrayCollectionSporepediaLargeCard verbtrays!EDI_VerbTrayCollection
+key verbTrayCollectionSporepediaSmallCard animations~

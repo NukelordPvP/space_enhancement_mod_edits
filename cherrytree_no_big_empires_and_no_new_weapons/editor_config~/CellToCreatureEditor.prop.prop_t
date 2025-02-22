@@ -1,0 +1,49 @@
+key parent editor_config~!CreatureEditorSetup.prop
+string16 description "Creature Editor Large"
+key editorBackgroundModel cl_ce_editor_background
+int32 editorBoneComplexityLimit 0x05f5e0ff
+float editorBoundSize 3
+key editorCameraUI EditorCameraCellToCreatureUI.prop
+int32 editorComplexityLimit 0x05f5e0ff
+float editorDaisRadius 5
+uint32 editorDaisType hash(sand)
+int32 editorDefaultInitialBudget 99999
+int32 editorMaxBakedBlocks 0x05f5e0ff
+int32 editorMaxBlockCount 0x05f5e0ff
+int32 editorMaxBudget 0x05f5e0ff
+float editorMaxGeomScore 100000000
+float editorMaxHeight 2
+float editorMinHeight 0
+key editorPaintPalette palette_definition~!0x0000000D.prop
+key editorPartsPalette palette_definition~!0x0000000E.prop
+key editorPedestalModel cl_ce_editor_dais
+key editorPlayModeEntryEffectID 0xFFFFFFFF!0xFFFFFFFF.0xFFFFFFFF
+key editorPlayModeExitEffectID 0xFFFFFFFF!0xFFFFFFFF.0xFFFFFFFF
+bool editorPreserveLineage false
+key editorSporepediaCanSwitchConfigID C2C_Shopper_CanSwitch
+key editorSporepediaConfigID C2C_Shopper
+keys editorStartupModel
+	creature_editorModel~!A_01~.crt
+	creature_editorModel~!A_01.crt
+	creature_editorModel~!A_02.crt
+	creature_editorModel~!A_03.crt
+	creature_editorModel~!A_04.crt
+	creature_editorModel~!A_05.crt
+	creature_editorModel~!A_06.crt
+	creature_editorModel~!A_07.crt
+	creature_editorModel~!A_08.crt
+	creature_editorModel~!A_10.crt
+	creature_editorModel~!A_11.crt
+	creature_editorModel~!A_12.crt
+	creature_editorModel~!A_13.crt
+	creature_editorModel~!A_14.crt
+	creature_editorModel~!A_15.crt
+	creature_editorModel~!A_16.crt
+end
+bool editorSubtractPartsCostOnLoad true
+key editorSwatchBackgroundModel animations~
+key editorSwatchPedestalModel animations~
+key editorTransition EditorTransitions!DefaultTransition
+key editorTutorialPaintMode CLESporeGuidePaint
+key editorTutorialPartMode CLESporeGuidePart
+key editorTutorialPlayMode CLESporeGuidePart
