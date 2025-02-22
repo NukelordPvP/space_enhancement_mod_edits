@@ -1,6 +1,6 @@
 # Space Enhancement Mod Edits  
 
-### Edit of [Davo’s Unlimited Complexity Mod](https://davoonline.com/phpBB3/viewtopic.php?t=10810)  
+### Edit of [space enhancement mod](https://davoonline.com/phpBB3/viewtopic.php?t=10810)  
 
 #### **Files Provided:**  
 
